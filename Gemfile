@@ -8,7 +8,7 @@ gem "middleman", "~>3.3.10"
 gem "middleman-livereload", "~> 3.1.0"
 
 # For faster file watcher updates on Windows:
-gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
+gem "wdm", "~> 0.1.0", platforms: [:mswin, :mingw]
 
 # Windows does not come with time zone data
 gem "tzinfo-data", platforms: [:mswin, :mingw]
@@ -16,7 +16,7 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 # Add plugins
 gem 'slim'
 gem 'compass'
-gem 'sass'
-gem 'jquery-middleman'
+gem 'bootstrap-sass', require: false
+gem 'jquery-middleman', require: false
 gem 'coffee-script'
 gem 'middleman-deploy', '~> 1.0'

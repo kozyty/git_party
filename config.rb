@@ -20,9 +20,18 @@ end
 # page "/path/to/file.html", :layout => :otherlayout
 #
 # A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
+#
+page "/introduction.md", layout: :introduction
+
+with_layout :chapter do
+  page "/chapters/*"
+end
+
+with_layout :column do
+  page "/columns/*"
+end
+
+page "/postscript.md", layout: :postscript
 
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
@@ -57,6 +66,8 @@ set :slim, { :ugly => true, :format => :html5 }
 
 set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true, :smartypants => true
+
+activate :directory_indexes
 
 # Build-specific configuration
 configure :build do
