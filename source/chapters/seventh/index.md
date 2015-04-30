@@ -5,3 +5,6 @@
 - [Gitの世界を綺麗にするクリアー](/chapters/seventh/7-4/)
 - [ローカルの作業をなかったことにするリセット](/chapters/seventh/7-5/)
 - [リセットを使って、過去に戻ってみよう](/chapters/seventh/7-6/)
+
+## コラム
+- [戻せるとちょう助かる！！](/columns/seventh/)

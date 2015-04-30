@@ -5,3 +5,6 @@
 - [Githubに登録しよう](/chapters/fifth/5-4/)
 - [試しに無料でサイトを公開してみよう](/chapters/fifth/5-5/)
 - [コミットして、サイト名を修正してみよう](/chapters/fifth/5-6/)
+
+## コラム
+- [GUIの話](/columns/fifth/)

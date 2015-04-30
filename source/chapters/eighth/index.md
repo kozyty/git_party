@@ -4,3 +4,6 @@
 - [rebase: コミットを整理したい！](/chapters/eighth/8-3/)
 - [log: 履歴を見返したい！](/chapters/eighth/8-4/)
 - [reflog: 作業を振り返りたい！](/chapters/eighth/8-5/)
+
+## コラム
+- [便利なものの何か（未定）](/columns/eighth/)

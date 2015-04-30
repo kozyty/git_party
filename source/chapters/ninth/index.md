@@ -7,3 +7,6 @@
 - [プルとプッシュ](/chapters/ninth/9-/)
 - [ブランチとマージ](/chapters/ninth/9-/)
 - [リセットとクリアー](/chapters/ninth/9-/)
+
+## コラム
+- [郵便局メソッドのまとめをここでやる？？？](/columns/ninth/)
