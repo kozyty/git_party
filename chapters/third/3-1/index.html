@@ -1,4 +1,53 @@
-<!DOCTYPE html><html><head><meta charset="utf-8" /><!-- Always force latest IE rendering engine or request Chrome Frame --><meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" /><meta content="noindex,nofollow" name="robots" /><!-- Use title if it's in the page YAML frontmatter --><title>チャプター</title><link href="/stylesheets/normalize.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/all-9f5702b1.css" rel="stylesheet" type="text/css" /><script src="/javascripts/all-6901ad6f.js" type="text/javascript"></script></head><body class="<%= page_classes %>"><h2 id="section">バージョン管理システムの今</h2>
+<!DOCTYPE html><html><head><meta charset="utf-8" /><!-- Always force latest IE rendering engine or request Chrome Frame --><meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" /><meta content="noindex,nofollow" name="robots" /><!-- Use title if it's in the page YAML frontmatter --><title>バージョン管理システムの今</title><link href="/stylesheets/normalize.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/all-9f5702b1.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/chapter-da39a3ee.css" rel="stylesheet" type="text/css" /><script src="/javascripts/all-6901ad6f.js" type="text/javascript"></script></head><body class="<%= page_classes %>"><a href="/">Git Party</a><h2 id="section">バージョン管理システムの説明</h2>
+<p>では、改めてバージョン管理システムについて説明しましょう。</p>
+
+<h2 id="section-1">今あるバージョン管理システムの種類</h2>
+<ul>
+  <li>Subversion</li>
+  <li>Mercurial</li>
+  <li>Git</li>
+  <li>Veracity</li>
+</ul>
+
+<p>主にオープンソースであり、有名なもの、新しいものを中心にピックアップしてみました。他にも商用なものなど含めると沢山の種類があります。</p>
+
+<h3 id="section-2">集中型</h3>
+<ul>
+  <li>すべての人が共通のリポジトリという拠点をもっていて変更点はすべてそこで管理するというもの。</li>
+  <li>１つの拠点で管理するため集中型と呼ばれる</li>
+</ul>
+
+<h3 id="section-3">分散型</h3>
+<ul>
+  <li>すべての人が自身でリポジトリという拠点をもっていて、変更点はすべてそこで管理するというもの</li>
+  <li>特定の拠点がなく分散された状態のため分散型と呼ばれる</li>
+</ul>
+
+<h2 id="section-4">バージョン管理システムの共通点</h2>
+<ul>
+  <li>ファイルの作成日時、変更日時、変更点などの履歴を保管すること</li>
+  <li>複数の人間がファイルの編集に関わる状況を想定</li>
+</ul>
+
+<h2 id="section-5">分散型のすごいところ</h2>
+
+<h2 id="git">Gitのすごいところ</h2>
+<ul>
+  <li>http://www.atmarkit.co.jp/ait/articles/0901/14/news133.html</li>
+</ul>
+
+<h2 id="section-6">分散型と集中型のハイブリッドが主流に？</h2>
+<p>分散型と集中型の話はしましたが、Gitは分散型と呼ばれていますね。しかし、Githubが登場した流れなのかそもそもGitが生んだ流れ7日はわかりませんが、現在Gitは「分散型と集中型のハイブリッド」という使われ方が主流になっているとわたしは感じています。</p>
+
+<p>どういうことかというと。</p>
+
+<ul>
+  <li>分散型なので、各人でリポジトリを管理する点は変わらない</li>
+  <li>が、しかしGithubのようなリモートリポジトリを設けてそこを拠点のように振る舞う。という点はある意味集中型とも言える</li>
+</ul>
+
+<p>よってGitは現在「分散型と集中型のハイブリッド」であると言えると思うのです。</p>
+
 <script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
