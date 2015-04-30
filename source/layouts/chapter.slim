@@ -11,10 +11,11 @@ html
     title
       = current_page.data.title || "チャプター"
 
-    = stylesheet_link_tag "normalize", "all"
+    = stylesheet_link_tag "normalize", "all", "chapter"
     = javascript_include_tag  "all"
 
   body class="<%= page_classes %>"
+    = link_to "Git Party", "/"
     = yield
 
     javascript:

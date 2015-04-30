@@ -1,11 +1,9 @@
 ## 第9章：復習！おさらいしながらGitを理解してみよう
-- バージョン管理とは
-- Gitとは
-- Githubとは
-- コミットと作業ツリー
-- ローカルとリモート
-- プルとプッシュ
-- ブランチとマージ
-- リセットとクリアー
-- この章のトピック
-  - 郵便局メソッドの世界観全部
+- [バージョン管理とは](/chapters/ninth/9-/)
+- [Gitとは](/chapters/ninth/9-/)
+- [Githubとは](/chapters/ninth/9-/)
+- [コミットと作業ツリー](/chapters/ninth/9-/)
+- [ローカルとリモート](/chapters/ninth/9-/)
+- [プルとプッシュ](/chapters/ninth/9-/)
+- [ブランチとマージ](/chapters/ninth/9-/)
+- [リセットとクリアー](/chapters/ninth/9-/)
