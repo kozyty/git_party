@@ -1,44 +1,83 @@
 ---
-title: Welcome to Middleman
+title: Welcome to GitParty!
 ---
+.welcome.row
+  h1.welcome__title
+    | Gitはむずかしくない！を始めよう
+  .welcome__contents.row
+    p.welcome__image.col-md-3.col-sm-3
+      | gitpartyへようこそ！
+    p.welcome__copy.col-md-9.col-sm-9
+      | あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。あのイーハトーヴォのすきとおった風らぎらひかる草の波。うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。あのイーハトーヴォのすきとおった風らぎらひかる草の波。うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。あのイーハトーヴォのすきとおった風らぎらひかる草の波。
+  .welcome__start-btn.btn.btn-primary.btn-lg
+    = link_to "GitPartyをはじめる", "/introduction"
 
-.welcome
-  h1
-    | Git Party
-  ul
-    li
-      p.doc
-        = link_to "まえがき", "/introduction"
-    li
-      p.doc
-        = link_to "第１章どんな人向けなのか", "/chapters/first/"
-    li
-      p.doc
-        = link_to "第２章過去から今を管理するシステムって何？", "/chapters/second/"
-    li
-      p.doc
-        = link_to "第３章バージョン管理システムとは", "/chapters/third/"
-    li
-      p.doc
-        = link_to "第４章Githubってなんなの？", "/chapters/fourth/"
-    li
-      p.doc
-        = link_to "第５章コピペでできる！まずはGitとGithubをつかってみよう", "/chapters/fifth/"
-    li
-      p.doc
-        = link_to "第６章ちょっと！もっと楽してみたい？", "/chapters/sixth/"
-    li
-      p.doc
-        = link_to "第７章もっと！失敗したとき、戻したいとき", "/chapters/seventh/"
-    li
-      p.doc
-        = link_to "第８章便利！もっと踏み込みたい", "/chapters/eighth/"
-    li
-      p.doc
-        = link_to "第９章復習！おさらいしながらGitを理解してみよう", "/chapters/ninth/"
-    li
-      p.doc
-        = link_to "あとがき", "/postscript"
+
+.chapter-index
+  ul.chapter-index__list.row
+    li.col-md-4.col-sm-4
+      = link_to "/chapters/first/"
+        dl
+          dt
+            | 第１章
+          dd
+            | どんな人向けなのか
+    li.col-md-4.col-sm-4
+      = link_to "/chapters/second/"
+        dl
+          dt
+            | 第2章
+          dd
+            | 過去から今を管理するシステムって何？
+    li.col-md-4.col-sm-4
+      = link_to "/chapters/third/"
+        dl
+          dt
+            | 第3章
+          dd
+            | バージョン管理システムとは
+    li.col-md-4.col-sm-4
+      = link_to "/chapters/fourth/"
+        dl
+          dt
+            | 第4章
+          dd
+            | Githubってなんなの？
+    li.col-md-4.col-sm-4
+      = link_to "/chapters/fifth/"
+        dl
+          dt
+            | 第5章
+          dd
+            | コピペでできる！まずはGitとGithubをつかってみよう
+    li.col-md-4.col-sm-4
+      = link_to "/chapters/sixth/"
+        dl
+          dt
+            | 第6章
+          dd
+            | ちょっと！もっと楽してみたい？
+    li.col-md-4.col-sm-4
+      = link_to "/chapters/seventh/"
+        dl
+          dt
+            | 第7章
+          dd
+            | もっと！失敗したとき、戻したいとき
+    li.col-md-4.col-sm-4
+      = link_to "/chapters/eighth/"
+        dl
+          dt
+            | 第8章
+          dd
+            | 便利！もっと踏み込みたい
+    li.col-md-4.col-sm-4
+      = link_to "/chapters/ninth/"
+        dl
+          dt
+            | 第9章
+          dd
+            | 復習！おさらいしながらGitを理解してみよう
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <!-- git_party_rectangle -->

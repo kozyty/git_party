@@ -1,0 +1,51 @@
+@charset "utf-8"
+
+$small: "only screen and (max-width: 768px)"
+$large: "only screen and (min-width: 769px)"
+
+.welcome__title
+  font-size: 25px
+  text-align: center
+  margin: 30px 0
+
+.welcome__image
+  height: 8em
+  margin: 0 0 20px
+  background: #efefef
+
+.welcome__start-btn
+  display: block!important
+  margin: 10px auto 0!important
+  width: 15em
+  a
+    color: #ffffff
+
+.chapter-index
+  margin: 30px 0
+
+.chapter-index__list
+  list-style-type: none
+  padding: 0
+  li
+    padding: 0
+    dl
+      margin: 5px
+      padding: 10px
+      border: solid 1px #204d74
+      border-radius: 5px
+      @media #{$small}
+        margin: 0 0 10px
+      @media #{$large}
+        background: #ffff00
+        min-height: 7em
+      dt
+        margin: 0 0 10px
+        text-align: center
+        font-size: 20px
+        @media #{$small}
+          text-align: left
+
+
+
+
+
