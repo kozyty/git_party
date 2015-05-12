@@ -2,6 +2,8 @@ doctype html
 html
   head
     meta charset="utf-8"
+    meta name="viewport" content="width=device-width"
+
 
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
@@ -20,7 +22,7 @@ html
         .header_contents
           .git-party__logo
             = link_to "Git Party", "/"
-      .container
+      .container.chapter-container
         = yield
 
     javascript:
