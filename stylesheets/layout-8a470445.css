@@ -1,0 +1,13 @@
+/* line 6, /Users/kozyty/workspace/git_party/source/stylesheets/layout.css.sass */
+body { background: #fbfbfb; }
+
+/* line 9, /Users/kozyty/workspace/git_party/source/stylesheets/layout.css.sass */
+.row { margin: 0 !important; }
+
+/* line 12, /Users/kozyty/workspace/git_party/source/stylesheets/layout.css.sass */
+.header { background: #2C3E50; text-align: center; padding: 20px 0; margin: 0 0 20px; }
+/* line 17, /Users/kozyty/workspace/git_party/source/stylesheets/layout.css.sass */
+.header a { color: #ffffff; }
+
+/* line 20, /Users/kozyty/workspace/git_party/source/stylesheets/layout.css.sass */
+.git-party__logo { font-size: 30px; }

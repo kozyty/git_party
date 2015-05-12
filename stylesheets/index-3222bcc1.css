@@ -1,0 +1,28 @@
+/* line 6, /Users/kozyty/workspace/git_party/source/stylesheets/index.css.sass */
+.welcome__title { font-size: 25px; text-align: center; margin: 30px 0; }
+
+/* line 11, /Users/kozyty/workspace/git_party/source/stylesheets/index.css.sass */
+.welcome__image { height: 8em; margin: 0 0 20px; background: #efefef; }
+
+/* line 16, /Users/kozyty/workspace/git_party/source/stylesheets/index.css.sass */
+.welcome__start-btn { display: block !important; margin: 10px auto 0 !important; width: 15em; }
+/* line 20, /Users/kozyty/workspace/git_party/source/stylesheets/index.css.sass */
+.welcome__start-btn a { color: #ffffff; }
+
+/* line 23, /Users/kozyty/workspace/git_party/source/stylesheets/index.css.sass */
+.chapter-index { margin: 30px 0; }
+
+/* line 26, /Users/kozyty/workspace/git_party/source/stylesheets/index.css.sass */
+.chapter-index__list { list-style-type: none; padding: 0; }
+/* line 29, /Users/kozyty/workspace/git_party/source/stylesheets/index.css.sass */
+.chapter-index__list li { padding: 0; }
+/* line 31, /Users/kozyty/workspace/git_party/source/stylesheets/index.css.sass */
+.chapter-index__list li dl { margin: 5px; padding: 10px; border: solid 1px #204d74; border-radius: 5px; }
+@media only screen and (max-width: 768px) { /* line 31, /Users/kozyty/workspace/git_party/source/stylesheets/index.css.sass */
+  .chapter-index__list li dl { margin: 0 0 10px; } }
+@media only screen and (min-width: 769px) { /* line 31, /Users/kozyty/workspace/git_party/source/stylesheets/index.css.sass */
+  .chapter-index__list li dl { background: #ffff00; min-height: 7em; } }
+/* line 41, /Users/kozyty/workspace/git_party/source/stylesheets/index.css.sass */
+.chapter-index__list li dl dt { margin: 0 0 10px; text-align: center; font-size: 20px; }
+@media only screen and (max-width: 768px) { /* line 41, /Users/kozyty/workspace/git_party/source/stylesheets/index.css.sass */
+  .chapter-index__list li dl dt { text-align: left; } }
